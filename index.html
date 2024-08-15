@@ -10,7 +10,7 @@
     <div class="container">
         <h1>QR Code Generator</h1>
         <label for="dataType">Select Data Type:</label>
-        <select id="dataType">
+        <select id="dataType" onchange="updateInputField()">
             <option value="url">URL</option>
             <option value="text">Text</option>
             <option value="email">Email</option>
@@ -24,7 +24,7 @@
         <div id="qrCodeContainer"></div>
         <button id="downloadBtn" onclick="downloadQRCode()">Download QR Code</button>
     </div>
-    <script src="qr-code-styling.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qr-code-styling@1.5.0/lib/qr-code-styling.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
