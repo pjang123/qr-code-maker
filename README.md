@@ -2,7 +2,7 @@
 
 A simple web app to generate QR codes from URLs, text, emails, images, and PDFs.
 
-##Features
+## Features
 - Generate QR codes from various data types
 - Download the generated QR code
 
